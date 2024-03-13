@@ -1,0 +1,11 @@
+clc
+clear
+close all
+
+tic
+%%
+load megdata
+ChooseComp(megdata,10,3,'tanh');
+%%
+toc
+
